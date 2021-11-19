@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#navigation{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.nav-head{
+    font-weight: 450;
+}
