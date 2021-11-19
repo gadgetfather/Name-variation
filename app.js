@@ -15,7 +15,11 @@ input.addEventListener('input',function run(){
     lastChar.textContent= getLastChar(value)
     lowerCase.textContent= getLowerCase(value)
     upperCase.textContent = getUppercase(value)
-    capitalize.textContent = getCapitalize(value)
+    if (value) {
+        capitalize.textContent = getCapitalize(value);
+    } else {
+        capitalize.textContent = "";
+    }
 })
 
 function getNumberofChar(value){
